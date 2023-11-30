@@ -11,8 +11,8 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
 // Configurar el directorio de archivos estáticos
-app.use(express.static(__dirname))
-// app.use(express.static(path.join(__dirname, 'dist')))
+// app.use(express.static(__dirname))
+app.use(express.static(path.join(__dirname, 'public')))
 
 // Ruta principal que envía un archivo HTML
 app.get('/', (req, res) => {
