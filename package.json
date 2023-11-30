@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "npm-run-all --parallel watch:server watch:tailwind",
+    "start": "node index.js",
     "watch:server": "node --watch index.js",
     "watch:tailwind": "npx tailwindcss -i ./src/tailwind.css -o ./public/style.css --watch",
     "watch:reload": "reload -d public",
