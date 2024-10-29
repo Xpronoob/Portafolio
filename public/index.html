@@ -11,7 +11,7 @@
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
   </head>
 
-  <body class="dark:bg-black">
+  <body class="bg-slate-50 dark:bg-slate-950">
     <div class="flex justify-end">
       <button id="darkModeButton">
         <i class="fas fa-solid fa-gear mt-5 mr-40 text-gray-700"></i>
@@ -35,8 +35,8 @@
               Kevin Marin
             </h1>
             <h4 class="text-xl text-gray-500 dark:text-white">
-              Estudiante de Ingeniería en Sistemas Computacionales, me gusta la
-              programación y el aprendizaje constante sobre la tecnología.
+              Ingeniero en Sistemas de Computación con experiencia en el diseño
+              y desarrollo de soluciones tecnológicas robustas y escalables.
             </h4>
           </div>
         </div>
@@ -52,6 +52,13 @@
           </a>
 
           <a
+            href="https://wa.me/+50683777700"
+            class="inline-block text-xl border-2 border-black rounded p-1 hover:bg-gray-200 dark:bg-white dark:border-white dark:hover:bg-gray-300"
+          >
+            <i class="fa-brands fa-whatsapp fa-lg" style="color: #07aa01"></i>
+            Whatsapp
+          </a>
+          <a
             href="https://t.me/xpronoob"
             class="inline-block text-xl border-2 border-black rounded p-1 hover:bg-gray-200 dark:bg-white dark:border-white dark:hover:bg-gray-300"
           >
@@ -63,7 +70,7 @@
             class="border-2 text-xl border-black rounded p-1 hover:bg-gray-200 dark:bg-white dark:border-white dark:hover:bg-gray-300"
           >
             <i class="fas fa-download fa-lg"></i>
-            Descargar
+            Descargar CV
           </button>
         </div>
       </header>
@@ -76,56 +83,149 @@
       </h3>
       <div id="experience" class="mb-5">
         <h3 class="text-gray-800 mb-1 font-semibold text-xl dark:text-white">
-          Página Web Liceo San Antonio
+          Liceo de San Antonio de Desamparados
         </h3>
         <p class="dark:text-gray-300">2023-2024</p>
         <div class="ml-3">
           <p class="dark:text-white text-lg mb-1">
-            • Desarrollo del sitio web integral para el Liceo de San Antonio
-            como parte del Trabajo Comunal Universitario (TCU).
+            • Desarrollo de una plataforma de anuncios y creación de contenido
+            utilizando PHP, Laravel y Node.js.
           </p>
           <p class="dark:text-white text-lg mb-1">
-            • Construcción del backend en Laravel con autenticación Breeze
-            Starter Kit para un inicio de sesión seguro y eficiente.
+            • Creación de la base de datos relacional y despliegue a producción
+            con MySql.
           </p>
           <p class="dark:text-white text-lg mb-1">
-            • Gestión de roles y permisos mediante Laravel-Permissions de Spatie
-            para controlar el acceso de administradores, docentes y estudiantes.
+            • Implementación de un sistema completo de autenticación y gestión
+            de roles, con un panel de administración para docentes y
+            colaboradores.
           </p>
           <p class="dark:text-white text-lg mb-1">
-            • Creación de módulos de administración, destacando el desarrollo
-            del módulo de noticias para anuncios estudiantiles.
+            • Configuración y despliegue del servidor en Ubuntu con Apache en un
+            VPS, incluyendo la optimización para un rendimiento eficiente.
           </p>
           <p class="dark:text-white text-lg">
-            • Aplicación de conocimientos en programación web en un entorno
-            práctico y colaborativo, fortaleciendo habilidades para soluciones
-            centradas en el usuario.
+            • Desarrollo de funcionalidades públicas para estudiantes y padres,
+            permitiendo la visualización de anuncios destacados, recientes y
+            contenido público.
           </p>
+          <p class="dark:text-white text-lg">
+            • Desarrollo de funcionalidades exclusivas para docentes y
+            colaboradores, permitiendo la administración de los anuncios
+            destacados, recientes y contenido público.
+          </p>
+        </div>
+        <div class="mt-2">
+          <a
+            href="https://liceo-san-antonio.com"
+            class="border-2 text-xl border-black rounded p-1 mt-3 hover:bg-gray-200 dark:bg-white dark:border-white dark:hover:bg-gray-300"
+          >
+            <i class="fas fa-eye fa-lg"></i>
+            Ir a la Web
+          </a>
         </div>
       </div>
       <!-- PROYECTOS -->
       <h3 class="text-blue-400 text-2xl mb-2 font-semibold">
         Proyectos <i class="fa-solid fa-code"></i>
       </h3>
-      <div class="flex flex-wrap justify-center">
-        <!-- IMG -->
-        <div class="border-2 mr-5">
-          <img
-            class="max-w-sm sm:max-w-sm xl:max-w-md"
-            src="./img/ssPortfolio.PNG"
-            alt=""
-          />
-        </div>
-        <!-- INFO -->
-        <div id="proyects" class="mb-2">
+
+      <!-- PROYECTO #1 -->
+      <div class="flex flex-wrap justify-center items-center mb-4">
+        <div>
+          <!-- TITLE -->
           <h3 class="text-gray-800 mb-1 font-semibold text-lg dark:text-white">
             Portafolio Web
           </h3>
-          <p class="dark:text-gray-300">2023-2024</p>
+          <!-- IMG -->
+          <div class="border-2 mr-5">
+            <img
+              class="max-w-sm sm:max-w-sm xl:max-w-md"
+              src="./img/ssPortfolio.PNG"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- INFO -->
+        <div id="proyects" class="mb-2">
+          <!-- <p class="dark:text-gray-300">2023-2024</p> -->
           <div class="ml-3 text-lg dark:text-gray-300">
-            <p>• Construcción de proyecto con NodeJs y ExpressJs.</p>
-            <p>• Servidor básico con asignación de puerto.</p>
-            <p>• Front-end con TailwindCSS</p>
+            <p>
+              • Simple portafolio web desarrollado con Node.js y TailwindCSS.
+            </p>
+          </div>
+          <div class="flex flex-wrap gap-2 justify-center">
+            <div>
+              <a
+                href="https://github.com/Xpronoob/Portafolio"
+                class="inline-block text-xl border-2 border-black rounded p-1 hover:bg-gray-200 dark:bg-white dark:border-white dark:hover:bg-gray-300"
+              >
+                <i class="fa-brands fa-github fa-lg" style="color: #000000"></i>
+                Ver Código
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://portfolio-xpronoobs-projects.vercel.app/"
+                class="inline-block text-xl border-2 border-black rounded p-1 hover:bg-gray-200 dark:bg-white dark:border-white dark:hover:bg-gray-300"
+              >
+                <i class="fas fa-eye fa-lg"></i>
+                Ir a la web
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- PROYECTO #2 -->
+      <div class="flex flex-wrap justify-center items-center mb-4">
+        <div>
+          <!-- TITLE -->
+          <h3 class="text-gray-800 mb-1 font-semibold text-lg dark:text-white">
+            Sistema de Autenticación, Usuarios y Roles
+          </h3>
+          <!-- IMG -->
+          <div class="border-2 mr-5">
+            <img
+              class="max-w-sm sm:max-w-sm xl:max-w-md"
+              src="./img/ssProyecto2.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- INFO -->
+        <div id="proyects" class="mb-2">
+          <!-- <p class="dark:text-gray-300">2023-2024</p> -->
+          <div class="ml-3 text-lg dark:text-gray-300 max-w-lg">
+            <p>
+              • API REST de autenticación utilizando JWT, desarrollada bajo
+              principios de Clean Architecture en Node.js, Express.js y
+              TypeScript.
+            </p>
+            <p>
+              • Implementación de un sitio web en React para gestionar la
+              administración
+            </p>
+          </div>
+          <div class="flex flex-wrap gap-2 justify-center">
+            <div>
+              <a
+                href="https://github.com/Xpronoob/ts-authentication-api"
+                class="inline-block text-xl border-2 border-black rounded p-1 hover:bg-gray-200 dark:bg-white dark:border-white dark:hover:bg-gray-300"
+              >
+                <i class="fa-brands fa-github fa-lg" style="color: #000000"></i>
+                Ver Backend
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://github.com/Xpronoob/react-authentication-router"
+                class="inline-block text-xl border-2 border-black rounded p-1 hover:bg-gray-200 dark:bg-white dark:border-white dark:hover:bg-gray-300"
+              >
+                <i class="fa-brands fa-github fa-lg" style="color: #000000"></i>
+                Ver Frontend
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -134,24 +234,24 @@
     <!-- Script para el DARK MODE -->
     <script>
       // Obtener el estado del modo oscuro desde localStorage
-      const isDarkMode = localStorage.getItem('darkMode') === 'true'
-      const htmlElement = document.querySelector('html')
+      const isDarkMode = localStorage.getItem('darkMode') === 'true';
+      const htmlElement = document.querySelector('html');
 
       // Aplicar el modo oscuro si estaba activado
       if (isDarkMode) {
-        htmlElement.classList.add('dark')
+        htmlElement.classList.add('dark');
       }
 
       // Cambiar modo oscuro y guardar en localStorage
       function toggleDarkMode() {
-        htmlElement.classList.toggle('dark')
-        const isDarkModeNow = htmlElement.classList.contains('dark')
-        localStorage.setItem('darkMode', isDarkModeNow)
+        htmlElement.classList.toggle('dark');
+        const isDarkModeNow = htmlElement.classList.contains('dark');
+        localStorage.setItem('darkMode', isDarkModeNow);
       }
 
       // Obtener botón de modo oscuro
-      const darkModeButton = document.getElementById('darkModeButton')
-      darkModeButton.addEventListener('click', toggleDarkMode)
+      const darkModeButton = document.getElementById('darkModeButton');
+      darkModeButton.addEventListener('click', toggleDarkMode);
     </script>
   </body>
 </html>
