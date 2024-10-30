@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "back": "node --watch index.js",
-    "front": "npx tailwindcss -i ./src/tailwind.css -o ./public/style.css --watch",
+    "dev": "node --watch index.js",
+    "dev:tailwind": "npx tailwindcss -i ./src/tailwind.css -o ./public/style.css --watch",
     "test": "test"
   },
   "repository": {

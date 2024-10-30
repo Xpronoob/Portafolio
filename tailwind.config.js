@@ -7,7 +7,9 @@ export default {
         primary: '#000000',
         secondary: '#000000'
       },
-      screens: {},
+      screens: {
+        xs: '350px'
+      },
       maxWidth: {}
     }
   },
